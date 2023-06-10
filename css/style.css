@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto:wght@100;400;700;900 & display=swap');
+
+/*-----RESET-----*/
+
+*{
+  margin: 0%;
+  padding: 0%;
+  text-decoration: none;
+  color:  hwb(324 15% 77% / 0.448);
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  }
+  
+ul{
+     list-style: none;
+  }
+
+a{
+  text-decoration: none;
+  }
+
+
+.gridContenedor{
+  display: grid;
+}
+/*----HEADER----*/
+
+
+.botonTitulo{
+    padding: 50px;
+    color: hwb(324 15% 77% / 0.448);
+    font-style:inherit ;
+    font-weight: 700;
+    font-size: x-large;
+    text-align: center;
+    margin: 20px; 
+    margin-bottom: 20px;
+    transition: 1s;
+}
+
+
+header nav a {
+  text-align: start;
+  text-decoration: none;
+}
+
+header nav ul li{
+  margin: 15px;
+}
+  
+
+.botonTitulo{
+  margin: 0px;
+  background-color: rgb(235, 188, 234);
+  width: 100%;
+padding-top: 5px;
+font-size: 25px;
+}
+
+.h1{
+  padding: 25px;
+}
+
+.menu ul{
+    background-color:rgb(245, 225, 244);
+    display: flex;
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    font-size: 16px;
+    font-style: unset; 
+    text-align: center;
+    transition: 1s;
+}
+
+
+@media screen and (max-width: 500px) {
+  .menu ul{flex-direction: column;}
+}
+
+.hero{
+  background-color: rgb(235, 188, 234);
+  width: 100%;
+  height: calc(100vh  104px);
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  font-size: 25px ;
+  font-weight: 700;
+}
+
+
+/*----------MAIN------------*/
+
+
+.imgFondo{
+ background-image: url("../img/faldaplizadamulticolor.png");
+ background-image: url("../img/faldaplizadamedio.png");
+ background-image: url("../img/faldaplizadader.png");
+
+ width: 200px;
+ height: 700px;
+
+ display: flex;
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+}
+
+.productos div{
+ width: 337px;
+ height: 500px;
+ display: flex;
+ margin-top: 45px;
+}
+
+.productos div img{
+  width: 337px;
+  height: 500px;
+  justify-content: calc();
+  align-items: center;
+}
+ 
+.productos div a{
+ position: sticky;
+ bottom: 0;
+ background-color: hwb(326 64% 13% / 0.448);
+ width: 100%;
+ color:hwb(324 15% 77% / 0.448) ;
+ text-align: end;
+}
+
+
+.iconoInstagram{
+  background-color:rgb(235, 188, 234) ;
+  display: grid;
+  place-content: center;
+  padding: 30px;
+}
+
+.formulario{
+  background-color:rgb(245, 225, 244) ;
+  margin: 0px;
+  padding: 30px;
+  display: grid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.formulario p{
+  font-size: 20px;
+  font-weight: 700;
+  font-style: normal;
+  align-items: center;
+
+  justify-content: center;
+}
+
+.tituloContacto{
+background-color: rgb(250, 236, 245);
+text-align: center;
+padding: 30px;
+}
+
+.contacto{
+  background-color: rgb(245, 225, 244);
+ display: flex;
+ justify-content: space-evenly;
+}
+
+.contactoWhatsapp{
+  padding: 20px;
+}
+.contactoImgEmail{
+  padding: 20px;
+}
+.contactoUbicacion{
+  padding: 20px;
+}
+
+.contactoFormulario{
+  background-color: rgb(235, 188, 234);
+text-align: center;
+font-style: normal;
+font-weight: 400;
+}
+
+.contactoNombre{
+  padding: 10px;
+}
+
+.contactoFormEmail{
+  padding: 10px;
+}
+.contactoTelefono{
+  padding:10px ;
+
+}
+.mensaje{
+  padding: 10px;
+}
+.enviar{
+  padding: 10px;
+  text-align: center;
+}
+
+.tituloEnvios{
+  background-color: rgb(235, 188, 234);
+  text-align: center;
+  padding: 15px;
+}
+
+.parrafoEnvios{
+  background-color: rgb(245, 225, 244);
+  text-align: center;
+  padding: 30px;
+}
+
+.mapaUbicacion{
+  background-color: rgb(255, 225, 244);
+  padding: 20px;
+ display: flex;
+ justify-content: center;
+}
+
+.direccion{
+  background-color: rgb(235, 188, 234);
+  padding: 20px;
+  font-weight: 400;
+ text-align: center;
+}
+
+
+/*------FOOTER--------*/
+
+
+.redesSociales{ 
+background-color:rgb(255, 225, 244) ;
+ padding-top: 30px;
+ padding-bottom: 30px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+
+/*------PSEUDOCLASES---------*/
+
+.h1:hover{
+  font-size: 20px;
+  color: hwb(326 5% 68% / 0.448);
+
+}
+
+
+.comprar:hover{
+
+ background-color: hwb(326 17% 13% / 0.448);
+ color:hwb(327 0% 95% / 0.448) ;
+ width: 150px;
+}
+
